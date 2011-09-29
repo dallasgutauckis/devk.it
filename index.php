@@ -42,8 +42,8 @@
     </div>
 
     <div id="license">
-      This shit's some kinda open-source, see? <a href="http://github.com/dallasgutauckis/devk.it/">Download devk.it</a>. Modify it. Attribute it to me... <a href="http://shinagle.com/">Dallas Gutauckis</a>
-      <br />Mmmkay? Thanks.
+      This stuff is some kind of open-source, see? <a href="http://github.com/dallasgutauckis/devk.it/">Download devk.it</a>. Modify it. Attribute it to me... <a href="http://shinagle.com/">Dallas Gutauckis</a>
+      <br />Mmkay? Thanks.
     </div>
 
   </body>
