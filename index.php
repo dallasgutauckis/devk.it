@@ -18,9 +18,11 @@
 
     <h1>devk.it</h1>
     <div id="container">
-      Put text in the box, click butons to act on the text. Load history from below the box by clicking on the text in your history. History is stored with local storage, not on a remote machine.
       <div id="tool-container">
         <div class="groupTemplate">
+          <div id="instructions">
+            Put text in the box, click butons to act on the text. Load history from below the box by clicking on the text in your history. History is stored with local storage, not on a remote machine.
+          </div>
           <textarea></textarea>
           <button class="unescape">Unescape</button>
           <button class="escape">Escape</button>
