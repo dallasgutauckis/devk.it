@@ -50,7 +50,7 @@ class AssetManager
     if ( false === isset( $this->cssFiles[$media] ) )
     {
       $this->cssFiles[$media] = array( $filename );
-      return;
+      return $this;
     }
     
     $this->cssFiles[$media][] = $filename;
@@ -94,7 +94,7 @@ class AssetManager
     
     foreach ( $this->cssFiles as $media => $cssFiles )
     {
-      $elements .= '<link rel="stylesheet" media="' . $media . '" href="' . $cssFilePath . implode( ';', $cssFiles ) . '" />' . "\n";
+      $elements .= '<link rel="stylesheet" media="' . $media . '" href="' . $cssFilepath . implode( ';', $cssFiles ) . '" />' . "\n";
     }
     
     $elements .= '<script type="text/javascript" src="' . $jsFilepath . implode( ';', $this->jsFiles ) . '"></script>' . "\n";
