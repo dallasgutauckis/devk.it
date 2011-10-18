@@ -14,6 +14,7 @@ h1
   color: #333;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #34730A;
+  text-shadow: 0 1px 1px #aaa;
 }
 
 #instructions
@@ -43,6 +44,9 @@ textarea
   margin-bottom: 10px;
   font-family: Monospace, Courier New; 
   font-size: 12pt;
+  box-shadow: 1px 1px 3px #AEFF36;
+  -webkit-box-shadow: 1px 1px 3px #AEFF36;
+  -moz-box-shadow: 1px 1px 3px #AEFF36;
 }
 
 #history ul 
@@ -74,7 +78,7 @@ button
   font-family: 'Actor', cursive; 
   font-weight: bold;
   border: 1px solid #aaa;
-  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
+  background: #eee;
   padding: 10px 20px;
   text-transform: uppercase;
   color: #333;
@@ -83,8 +87,9 @@ button
 button:hover
 {
   border-color: #888;
-  -moz-box-shadow: 1px 1px 1px #bbb;
-  -webkit-box-shadow: 1px 1px 1px #bbb;
+  -moz-box-shadow: 0px 1px 1px #bbb;
+  -webkit-box-shadow: 0px 1px 1px #bbb;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
   box-shadow: 1px 1px 1px #bbb;
   color: #333;
 }  
@@ -99,6 +104,11 @@ button:active
 }
 
 button.nonInput
+{
+  background: #fee;
+}
+
+button.nonInput:hover
 {
   background: -webkit-gradient(linear, left top, left bottom, from(#fee), to(#fdd));
 }
